@@ -1,0 +1,11 @@
+let a =prompt("hey whts ur age");
+a=Number.parseInt(a);
+if(a<0){
+  console.log("invalid age")
+}
+else if (a>=0 && a<18){
+  console.log("no");
+}
+else{
+  console.log("yes");
+}
